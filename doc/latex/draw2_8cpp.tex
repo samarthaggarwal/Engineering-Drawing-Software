@@ -1,0 +1,376 @@
+\hypertarget{draw2_8cpp}{}\section{src/draw2.cpp File Reference}
+\label{draw2_8cpp}\index{src/draw2.\+cpp@{src/draw2.\+cpp}}
+{\ttfamily \#include $<$math.\+h$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$G\+L/glut.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}../lib/\+Vertex.\+cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Two\+To\+Three.\+cpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Three\+To\+Two.\+cpp\char`\"{}}\\*
+Include dependency graph for draw2.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{draw2_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{draw2_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}~3.\+1415926536
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{draw2_8cpp_ac5c54df7ed3b930268c8d7752c101725}{update} ()
+\item 
+void \hyperlink{draw2_8cpp_afa20485a295d6e55ffe9d5c496d1cfa1}{idle\+\_\+fn} ()
+\item 
+void \hyperlink{draw2_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}{display} ()
+\item 
+void \hyperlink{draw2_8cpp_af4b6db54ef371626a3d23da2636a4fa0}{display1} ()
+\item 
+void \hyperlink{draw2_8cpp_a91cdf55e49e2c33dd11a85a178a82409}{display2} ()
+\item 
+void \hyperlink{draw2_8cpp_a5ae730bf155322af402f2f4b2dfcd54d}{display3} ()
+\item 
+void \hyperlink{draw2_8cpp_a1564b834688cdbb8c5b7614900ce833e}{Special\+\_\+\+Keys} (int key, int x, int y)
+\item 
+int \hyperlink{draw2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{draw2_8cpp_a77e49fc0956d412a05337460c7778c6d}{first} =true
+\item 
+int \hyperlink{draw2_8cpp_a63bd75f20c553f0d65d7bb29b3f35696}{choice}
+\item 
+bool \hyperlink{draw2_8cpp_a92935f074a30dac547e4bc8b6e14e31d}{choice2to3} =true
+\item 
+bool \hyperlink{draw2_8cpp_a13511c29978758fa77a77103770f942f}{choice3to2} =true
+\item 
+float \hyperlink{draw2_8cpp_a4aec1a5be9d9a4a394a2e49e9744286e}{a}
+\item 
+float \hyperlink{draw2_8cpp_a83fc1af92e29717b4513d121b0c72c7d}{b}
+\item 
+float \hyperlink{draw2_8cpp_ae78103ab33f03590e84ff7bc735629d7}{c}
+\item 
+float \hyperlink{draw2_8cpp_ad36c8f7a507294aa8f53bb0baf28fb24}{a1}
+\item 
+float \hyperlink{draw2_8cpp_a0a909289ec9fbfaa70c0e112ec9e3b15}{b1}
+\item 
+float \hyperlink{draw2_8cpp_a7fea4d2f6f3c31b60301494b136558af}{c1}
+\item 
+float \hyperlink{draw2_8cpp_a0a9ef35b787a9d8a73482c238d0177c4}{a2}
+\item 
+float \hyperlink{draw2_8cpp_a746bcb222044619e5a9b335d242a2a92}{b2}
+\item 
+float \hyperlink{draw2_8cpp_a0fe1885b4d10c978f52619ab968adadc}{c2}
+\item 
+float \hyperlink{draw2_8cpp_ade6a1e5a65fbbbc7812aab91226157d8}{r\+\_\+x} =0.\+0
+\item 
+float \hyperlink{draw2_8cpp_af623cefe51ccc3108c3cd7328a92b7fb}{r\+\_\+y} =0.\+0
+\item 
+string \hyperlink{draw2_8cpp_a5e321865280511fce6bc417ba1807491}{d3\+\_\+in\+File}
+\item 
+string \hyperlink{draw2_8cpp_a596148356aa855178797cfa8926f756b}{d2\+\_\+in\+File\+\_\+xy}
+\item 
+string \hyperlink{draw2_8cpp_ae5b794a1753e5d1a872eae278d803b5b}{d2\+\_\+in\+File\+\_\+yz}
+\item 
+string \hyperlink{draw2_8cpp_ad46a959b5a8bae75aa7829bf63b1d082}{d2\+\_\+in\+File\+\_\+zx}
+\item 
+int \hyperlink{draw2_8cpp_a3bf12bd6957e03ad1df6105a272ae95f}{main\+\_\+window}
+\item 
+int \hyperlink{draw2_8cpp_a597d6e9c3821eba36098286213f88e3b}{sub\+\_\+window1}
+\item 
+int \hyperlink{draw2_8cpp_a02005a3fb43ee69026c855d98a2bb47f}{sub\+\_\+window2}
+\item 
+int \hyperlink{draw2_8cpp_aadf72dabdff891c68d71b93c112e98f9}{sub\+\_\+window3}
+\item 
+int \hyperlink{draw2_8cpp_a5b714d66fd49ed892517d5e8f2f12256}{sub\+\_\+window4}
+\item 
+int \hyperlink{draw2_8cpp_a4365545fd48c51e8d4fa9ebb99c6a72f}{ang} =30
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{draw2.\+cpp@{draw2.\+cpp}!PI@{PI}}
+\index{PI@{PI}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{PI}{PI}}]{\setlength{\rightskip}{0pt plus 5cm}\#define PI~3.\+1415926536}\hypertarget{draw2_8cpp_a598a3330b3c21701223ee0ca14316eca}{}\label{draw2_8cpp_a598a3330b3c21701223ee0ca14316eca}
+
+
+Definition at line 6 of file draw2.\+cpp.
+
+
+
+\subsection{Function Documentation}
+\index{draw2.\+cpp@{draw2.\+cpp}!display@{display}}
+\index{display@{display}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{display()}{display()}}]{\setlength{\rightskip}{0pt plus 5cm}void display (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}{}\label{draw2_8cpp_a1e5b20fed15743656bb6d2e6a6ea6269}
+
+
+Definition at line 314 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!display1@{display1}}
+\index{display1@{display1}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{display1()}{display1()}}]{\setlength{\rightskip}{0pt plus 5cm}void display1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_af4b6db54ef371626a3d23da2636a4fa0}{}\label{draw2_8cpp_af4b6db54ef371626a3d23da2636a4fa0}
+
+
+Definition at line 363 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!display2@{display2}}
+\index{display2@{display2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{display2()}{display2()}}]{\setlength{\rightskip}{0pt plus 5cm}void display2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_a91cdf55e49e2c33dd11a85a178a82409}{}\label{draw2_8cpp_a91cdf55e49e2c33dd11a85a178a82409}
+
+
+Definition at line 412 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!display3@{display3}}
+\index{display3@{display3}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{display3()}{display3()}}]{\setlength{\rightskip}{0pt plus 5cm}void display3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_a5ae730bf155322af402f2f4b2dfcd54d}{}\label{draw2_8cpp_a5ae730bf155322af402f2f4b2dfcd54d}
+
+
+Definition at line 461 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!idle\+\_\+fn@{idle\+\_\+fn}}
+\index{idle\+\_\+fn@{idle\+\_\+fn}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{idle\+\_\+fn()}{idle_fn()}}]{\setlength{\rightskip}{0pt plus 5cm}void idle\+\_\+fn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_afa20485a295d6e55ffe9d5c496d1cfa1}{}\label{draw2_8cpp_afa20485a295d6e55ffe9d5c496d1cfa1}
+
+
+Definition at line 298 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!main@{main}}
+\index{main@{main}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{main(int argc, char $\ast$$\ast$argv)}{main(int argc, char **argv)}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{}\label{draw2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Definition at line 534 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!Special\+\_\+\+Keys@{Special\+\_\+\+Keys}}
+\index{Special\+\_\+\+Keys@{Special\+\_\+\+Keys}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{Special\+\_\+\+Keys(int key, int x, int y)}{Special_Keys(int key, int x, int y)}}]{\setlength{\rightskip}{0pt plus 5cm}void Special\+\_\+\+Keys (
+\begin{DoxyParamCaption}
+\item[{int}]{key, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_a1564b834688cdbb8c5b7614900ce833e}{}\label{draw2_8cpp_a1564b834688cdbb8c5b7614900ce833e}
+
+
+Definition at line 509 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!update@{update}}
+\index{update@{update}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{update()}{update()}}]{\setlength{\rightskip}{0pt plus 5cm}void update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{draw2_8cpp_ac5c54df7ed3b930268c8d7752c101725}{}\label{draw2_8cpp_ac5c54df7ed3b930268c8d7752c101725}
+
+
+Definition at line 27 of file draw2.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\index{draw2.\+cpp@{draw2.\+cpp}!a@{a}}
+\index{a@{a}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{a}{a}}]{\setlength{\rightskip}{0pt plus 5cm}float a}\hypertarget{draw2_8cpp_a4aec1a5be9d9a4a394a2e49e9744286e}{}\label{draw2_8cpp_a4aec1a5be9d9a4a394a2e49e9744286e}
+
+
+Definition at line 19 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!a1@{a1}}
+\index{a1@{a1}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{a1}{a1}}]{\setlength{\rightskip}{0pt plus 5cm}float a1}\hypertarget{draw2_8cpp_ad36c8f7a507294aa8f53bb0baf28fb24}{}\label{draw2_8cpp_ad36c8f7a507294aa8f53bb0baf28fb24}
+
+
+Definition at line 20 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!a2@{a2}}
+\index{a2@{a2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{a2}{a2}}]{\setlength{\rightskip}{0pt plus 5cm}float a2}\hypertarget{draw2_8cpp_a0a9ef35b787a9d8a73482c238d0177c4}{}\label{draw2_8cpp_a0a9ef35b787a9d8a73482c238d0177c4}
+
+
+Definition at line 21 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!ang@{ang}}
+\index{ang@{ang}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{ang}{ang}}]{\setlength{\rightskip}{0pt plus 5cm}int ang =30}\hypertarget{draw2_8cpp_a4365545fd48c51e8d4fa9ebb99c6a72f}{}\label{draw2_8cpp_a4365545fd48c51e8d4fa9ebb99c6a72f}
+
+
+Definition at line 292 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!b@{b}}
+\index{b@{b}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{b}{b}}]{\setlength{\rightskip}{0pt plus 5cm}float b}\hypertarget{draw2_8cpp_a83fc1af92e29717b4513d121b0c72c7d}{}\label{draw2_8cpp_a83fc1af92e29717b4513d121b0c72c7d}
+
+
+Definition at line 19 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!b1@{b1}}
+\index{b1@{b1}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{b1}{b1}}]{\setlength{\rightskip}{0pt plus 5cm}float b1}\hypertarget{draw2_8cpp_a0a909289ec9fbfaa70c0e112ec9e3b15}{}\label{draw2_8cpp_a0a909289ec9fbfaa70c0e112ec9e3b15}
+
+
+Definition at line 20 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!b2@{b2}}
+\index{b2@{b2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{b2}{b2}}]{\setlength{\rightskip}{0pt plus 5cm}float b2}\hypertarget{draw2_8cpp_a746bcb222044619e5a9b335d242a2a92}{}\label{draw2_8cpp_a746bcb222044619e5a9b335d242a2a92}
+
+
+Definition at line 21 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!c@{c}}
+\index{c@{c}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{c}{c}}]{\setlength{\rightskip}{0pt plus 5cm}float c}\hypertarget{draw2_8cpp_ae78103ab33f03590e84ff7bc735629d7}{}\label{draw2_8cpp_ae78103ab33f03590e84ff7bc735629d7}
+
+
+Definition at line 19 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!c1@{c1}}
+\index{c1@{c1}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{c1}{c1}}]{\setlength{\rightskip}{0pt plus 5cm}float c1}\hypertarget{draw2_8cpp_a7fea4d2f6f3c31b60301494b136558af}{}\label{draw2_8cpp_a7fea4d2f6f3c31b60301494b136558af}
+
+
+Definition at line 20 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!c2@{c2}}
+\index{c2@{c2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{c2}{c2}}]{\setlength{\rightskip}{0pt plus 5cm}float c2}\hypertarget{draw2_8cpp_a0fe1885b4d10c978f52619ab968adadc}{}\label{draw2_8cpp_a0fe1885b4d10c978f52619ab968adadc}
+
+
+Definition at line 21 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!choice@{choice}}
+\index{choice@{choice}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{choice}{choice}}]{\setlength{\rightskip}{0pt plus 5cm}int choice}\hypertarget{draw2_8cpp_a63bd75f20c553f0d65d7bb29b3f35696}{}\label{draw2_8cpp_a63bd75f20c553f0d65d7bb29b3f35696}
+
+
+Definition at line 16 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!choice2to3@{choice2to3}}
+\index{choice2to3@{choice2to3}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{choice2to3}{choice2to3}}]{\setlength{\rightskip}{0pt plus 5cm}bool choice2to3 =true}\hypertarget{draw2_8cpp_a92935f074a30dac547e4bc8b6e14e31d}{}\label{draw2_8cpp_a92935f074a30dac547e4bc8b6e14e31d}
+
+
+Definition at line 17 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!choice3to2@{choice3to2}}
+\index{choice3to2@{choice3to2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{choice3to2}{choice3to2}}]{\setlength{\rightskip}{0pt plus 5cm}bool choice3to2 =true}\hypertarget{draw2_8cpp_a13511c29978758fa77a77103770f942f}{}\label{draw2_8cpp_a13511c29978758fa77a77103770f942f}
+
+
+Definition at line 18 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!d2\+\_\+in\+File\+\_\+xy@{d2\+\_\+in\+File\+\_\+xy}}
+\index{d2\+\_\+in\+File\+\_\+xy@{d2\+\_\+in\+File\+\_\+xy}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{d2\+\_\+in\+File\+\_\+xy}{d2_inFile_xy}}]{\setlength{\rightskip}{0pt plus 5cm}string d2\+\_\+in\+File\+\_\+xy}\hypertarget{draw2_8cpp_a596148356aa855178797cfa8926f756b}{}\label{draw2_8cpp_a596148356aa855178797cfa8926f756b}
+
+
+Definition at line 23 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!d2\+\_\+in\+File\+\_\+yz@{d2\+\_\+in\+File\+\_\+yz}}
+\index{d2\+\_\+in\+File\+\_\+yz@{d2\+\_\+in\+File\+\_\+yz}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{d2\+\_\+in\+File\+\_\+yz}{d2_inFile_yz}}]{\setlength{\rightskip}{0pt plus 5cm}string d2\+\_\+in\+File\+\_\+yz}\hypertarget{draw2_8cpp_ae5b794a1753e5d1a872eae278d803b5b}{}\label{draw2_8cpp_ae5b794a1753e5d1a872eae278d803b5b}
+
+
+Definition at line 23 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!d2\+\_\+in\+File\+\_\+zx@{d2\+\_\+in\+File\+\_\+zx}}
+\index{d2\+\_\+in\+File\+\_\+zx@{d2\+\_\+in\+File\+\_\+zx}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{d2\+\_\+in\+File\+\_\+zx}{d2_inFile_zx}}]{\setlength{\rightskip}{0pt plus 5cm}string d2\+\_\+in\+File\+\_\+zx}\hypertarget{draw2_8cpp_ad46a959b5a8bae75aa7829bf63b1d082}{}\label{draw2_8cpp_ad46a959b5a8bae75aa7829bf63b1d082}
+
+
+Definition at line 23 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!d3\+\_\+in\+File@{d3\+\_\+in\+File}}
+\index{d3\+\_\+in\+File@{d3\+\_\+in\+File}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{d3\+\_\+in\+File}{d3_inFile}}]{\setlength{\rightskip}{0pt plus 5cm}string d3\+\_\+in\+File}\hypertarget{draw2_8cpp_a5e321865280511fce6bc417ba1807491}{}\label{draw2_8cpp_a5e321865280511fce6bc417ba1807491}
+
+
+Definition at line 23 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!first@{first}}
+\index{first@{first}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{first}{first}}]{\setlength{\rightskip}{0pt plus 5cm}bool first =true}\hypertarget{draw2_8cpp_a77e49fc0956d412a05337460c7778c6d}{}\label{draw2_8cpp_a77e49fc0956d412a05337460c7778c6d}
+
+
+Definition at line 15 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!main\+\_\+window@{main\+\_\+window}}
+\index{main\+\_\+window@{main\+\_\+window}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{main\+\_\+window}{main_window}}]{\setlength{\rightskip}{0pt plus 5cm}int main\+\_\+window}\hypertarget{draw2_8cpp_a3bf12bd6957e03ad1df6105a272ae95f}{}\label{draw2_8cpp_a3bf12bd6957e03ad1df6105a272ae95f}
+
+
+Definition at line 25 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!r\+\_\+x@{r\+\_\+x}}
+\index{r\+\_\+x@{r\+\_\+x}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{r\+\_\+x}{r_x}}]{\setlength{\rightskip}{0pt plus 5cm}float r\+\_\+x =0.\+0}\hypertarget{draw2_8cpp_ade6a1e5a65fbbbc7812aab91226157d8}{}\label{draw2_8cpp_ade6a1e5a65fbbbc7812aab91226157d8}
+
+
+Definition at line 22 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!r\+\_\+y@{r\+\_\+y}}
+\index{r\+\_\+y@{r\+\_\+y}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{r\+\_\+y}{r_y}}]{\setlength{\rightskip}{0pt plus 5cm}float r\+\_\+y =0.\+0}\hypertarget{draw2_8cpp_af623cefe51ccc3108c3cd7328a92b7fb}{}\label{draw2_8cpp_af623cefe51ccc3108c3cd7328a92b7fb}
+
+
+Definition at line 22 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!sub\+\_\+window1@{sub\+\_\+window1}}
+\index{sub\+\_\+window1@{sub\+\_\+window1}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{sub\+\_\+window1}{sub_window1}}]{\setlength{\rightskip}{0pt plus 5cm}int sub\+\_\+window1}\hypertarget{draw2_8cpp_a597d6e9c3821eba36098286213f88e3b}{}\label{draw2_8cpp_a597d6e9c3821eba36098286213f88e3b}
+
+
+Definition at line 25 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!sub\+\_\+window2@{sub\+\_\+window2}}
+\index{sub\+\_\+window2@{sub\+\_\+window2}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{sub\+\_\+window2}{sub_window2}}]{\setlength{\rightskip}{0pt plus 5cm}int sub\+\_\+window2}\hypertarget{draw2_8cpp_a02005a3fb43ee69026c855d98a2bb47f}{}\label{draw2_8cpp_a02005a3fb43ee69026c855d98a2bb47f}
+
+
+Definition at line 25 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!sub\+\_\+window3@{sub\+\_\+window3}}
+\index{sub\+\_\+window3@{sub\+\_\+window3}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{sub\+\_\+window3}{sub_window3}}]{\setlength{\rightskip}{0pt plus 5cm}int sub\+\_\+window3}\hypertarget{draw2_8cpp_aadf72dabdff891c68d71b93c112e98f9}{}\label{draw2_8cpp_aadf72dabdff891c68d71b93c112e98f9}
+
+
+Definition at line 25 of file draw2.\+cpp.
+
+\index{draw2.\+cpp@{draw2.\+cpp}!sub\+\_\+window4@{sub\+\_\+window4}}
+\index{sub\+\_\+window4@{sub\+\_\+window4}!draw2.\+cpp@{draw2.\+cpp}}
+\subsubsection[{\texorpdfstring{sub\+\_\+window4}{sub_window4}}]{\setlength{\rightskip}{0pt plus 5cm}int sub\+\_\+window4}\hypertarget{draw2_8cpp_a5b714d66fd49ed892517d5e8f2f12256}{}\label{draw2_8cpp_a5b714d66fd49ed892517d5e8f2f12256}
+
+
+Definition at line 25 of file draw2.\+cpp.
+

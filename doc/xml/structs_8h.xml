@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structs_8h" kind="file" language="C++">
+    <compoundname>structs.h</compoundname>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="55">
+        <label>lib/structs.h</label>
+        <link refid="structs.h"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structvertex2_d" prot="public">vertex2D</innerclass>
+    <innerclass refid="structvertex3_d" prot="public">vertex3D</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="structvertex2_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvertex2_d" kindref="compound">vertex2D</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="structvertex2_d_1a92a0d499a4a4de12f7ea36423eb550b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structvertex2_d_1a92a0d499a4a4de12f7ea36423eb550b8" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="6" refid="structvertex2_d_1a2ba74d18c3e8e5a36fd2846a7a4d1a4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvertex2_d_1a2ba74d18c3e8e5a36fd2846a7a4d1a4f" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="7" refid="structvertex2_d_1a6ca32b6427f8d3ce3437db0bafd92a00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvertex2_d_1a6ca32b6427f8d3ce3437db0bafd92a00" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structvertex3_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvertex3_d" kindref="compound">vertex3D</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="structvertex3_d_1a6294e6614f1bb7ac73020c203a5f34c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structvertex3_d_1a6294e6614f1bb7ac73020c203a5f34c1" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structvertex3_d_1a6c6ee4315d72adbc5abb17e6af802087" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvertex3_d_1a6c6ee4315d72adbc5abb17e6af802087" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structvertex3_d_1aa1f4823bf2a3f648b1b0b39ef7ea5891" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvertex3_d_1aa1f4823bf2a3f648b1b0b39ef7ea5891" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structvertex3_d_1a67f3819dff895cb47284c34ec85658d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvertex3_d_1a67f3819dff895cb47284c34ec85658d7" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="lib/structs.h"/>
+  </compounddef>
+</doxygen>

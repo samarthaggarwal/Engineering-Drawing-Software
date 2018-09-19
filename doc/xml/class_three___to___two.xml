@@ -1,0 +1,686 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_three___to___two" kind="class" language="C++" prot="public">
+    <compoundname>Three_To_Two</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_three___to___two_1a39ed690740565f107b2b65a678e0ab5e" prot="public" static="no" mutable="no">
+        <type>map&lt; string, vector&lt; <ref refid="struct_vertex2_d" kindref="compound">Vertex2D</ref> &gt; &gt;</type>
+        <definition>map&lt;string, vector&lt;Vertex2D&gt; &gt; Three_To_Two::projection</definition>
+        <argsstring></argsstring>
+        <name>projection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="17" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1ab89e25f994881aea2bdae437e397f970" prot="public" static="no" mutable="no">
+        <type>map&lt; string, list&lt; <ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref> &gt; &gt;</type>
+        <definition>map&lt;string, list&lt;Vertex3D&gt; &gt; Three_To_Two::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="19" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a10db4a5f7a04743b00ce1f9215147dcc" prot="public" static="no" mutable="no">
+        <type>map&lt; string, string &gt;</type>
+        <definition>map&lt; string, string&gt; Three_To_Two::pointToProj</definition>
+        <argsstring></argsstring>
+        <name>pointToProj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="22" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1abb86c66855183ae0463c28af722997bb" prot="public" static="no" mutable="no">
+        <type>map&lt; string, vector&lt; <ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref> &gt; &gt;</type>
+        <definition>map&lt; string, vector&lt;Vertex3D&gt; &gt; Three_To_Two::projLabels</definition>
+        <argsstring></argsstring>
+        <name>projLabels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="25" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a2f86f24e2cbd6f19b7288c3b0f401f49" prot="public" static="no" mutable="no">
+        <type>map&lt; string, vector&lt; string &gt; &gt;</type>
+        <definition>map&lt; string, vector&lt;string&gt; &gt; Three_To_Two::faces_vertices</definition>
+        <argsstring></argsstring>
+        <name>faces_vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="28" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1ab76600933c530c9a6e7a54cf39df7bc9" prot="public" static="no" mutable="no">
+        <type>map&lt; string, vector&lt; string &gt; &gt;</type>
+        <definition>map&lt; string, vector&lt;string&gt; &gt; Three_To_Two::vertices_faces</definition>
+        <argsstring></argsstring>
+        <name>vertices_faces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="31" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a62f60abbec70c062d40369bae26d8bfc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="33" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a74c72941752a52a87c13e4268ec37cc8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="33" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a2dc98edd9d60378c346b61e988f966f9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="33" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a8396aaabde6a54cdc6a36b6d263d94e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="34" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a4859d8dc45f60e772c55ab2923bab71c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="35" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1aaf40e46b50333549d03205a22974fce0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="36" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1abfb1f1c097808c8faf3f6cb28911491d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Three_To_Two::choice</definition>
+        <argsstring></argsstring>
+        <name>choice</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="38" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a5e20357c42384b2e7aecfdf88ccbd898" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref></type>
+        <definition>Vertex3D Three_To_Two::new_x</definition>
+        <argsstring></argsstring>
+        <name>new_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="40" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a6d516a8a5fa8b8ee2dd1c64195725ab7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref></type>
+        <definition>Vertex3D Three_To_Two::new_y</definition>
+        <argsstring></argsstring>
+        <name>new_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="40" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1acdd6380173d6df1ce3d72c911ba0f1af" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Three_To_Two::input_file</definition>
+        <argsstring></argsstring>
+        <name>input_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="43" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a94c401d2acc198ffb188d37e7ce424c4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Three_To_Two::output_file</definition>
+        <argsstring></argsstring>
+        <name>output_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="44" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a2550b425f64bae1a0f92f5405dab24b2" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref> &gt;</type>
+        <definition>map&lt;string, Vertex3D&gt; Three_To_Two::vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="47" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a579ed77ab975e6cfb1cf90d28074a93b" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="struct_vertex2_d" kindref="compound">Vertex2D</ref> &gt;</type>
+        <definition>map&lt;string, Vertex2D&gt; Three_To_Two::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="50" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a1116965a6138a9b16fee724eccff6ba5" prot="public" static="no" mutable="no">
+        <type>map&lt; pair&lt; float, float &gt;, vector&lt; string &gt; &gt;</type>
+        <definition>map&lt;pair&lt;float,float&gt;, vector&lt;string&gt; &gt; Three_To_Two::vertices2D</definition>
+        <argsstring></argsstring>
+        <name>vertices2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="52" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a9e131241a48170afd8af54e30ee95ded" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Three_To_Two::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="53" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a42a8bb1919cbeaa1a717ecea05468493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Three_To_Two::n_edges</definition>
+        <argsstring></argsstring>
+        <name>n_edges</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="53" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1aef5084fad08c5eeac58437d90113122f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Three_To_Two::n_faces</definition>
+        <argsstring></argsstring>
+        <name>n_faces</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="53" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a98ab641ba7f2da5fffbe0066debcafaa" prot="public" static="no" mutable="no">
+        <type>map&lt; string, string &gt;</type>
+        <definition>map&lt;string,string&gt; Three_To_Two::correspond</definition>
+        <argsstring></argsstring>
+        <name>correspond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="55" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1aafa5fc739b2313e58a440d9b8b3d4875" prot="public" static="no" mutable="no">
+        <type>vector&lt; pair&lt; string, string &gt; &gt;</type>
+        <definition>vector&lt;pair&lt;string,string&gt; &gt; Three_To_Two::edges</definition>
+        <argsstring></argsstring>
+        <name>edges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="58" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a3893134e478349a3df093541bc35f406" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Three_To_Two::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="60" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a6e2169c85306e089975e4be179ab8869" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::scale_factor</definition>
+        <argsstring></argsstring>
+        <name>scale_factor</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="61" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a08809b4ff50badda240d9adb8847405c" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Three_To_Two::vertices_list</definition>
+        <argsstring></argsstring>
+        <name>vertices_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="64" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a6a7cf88c8d654edd486bc979284c256a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="66" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1a36bafd8c3cf8db0e6ea4f6f936922e3d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="66" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_three___to___two_1aefe3e71b2a022c70407771625a5b416e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Three_To_Two::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="66" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_three___to___two_1ab3a3cda1a3f0e61b927c87e0a9655de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::getInput</definition>
+        <argsstring>(string in)</argsstring>
+        <name>getInput</name>
+        <param>
+          <type>string</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="69" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="69" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1a879354b0418511bd700d3f19c3cf8cbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::setPlane</definition>
+        <argsstring>(float a1, float b1, float c1)</argsstring>
+        <name>setPlane</name>
+        <param>
+          <type>float</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="181" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="181" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1a00c909f873cde40038e9e077f9349162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::getPlane</definition>
+        <argsstring>()</argsstring>
+        <name>getPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="188" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="188" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1afcfa094efbefe5fc2c68129f0019328c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::shift_origin</definition>
+        <argsstring>(bool calculate, bool update)</argsstring>
+        <name>shift_origin</name>
+        <param>
+          <type>bool</type>
+          <declname>calculate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>update</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="250" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="250" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1aa783af2e5ff93ec80cb54bd9d70596ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::scale</definition>
+        <argsstring>(float factor, bool autoscale, bool update)</argsstring>
+        <name>scale</name>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoscale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>update</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="302" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="302" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1a741076f262ae512cca81ecff5f6f6b3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::rotate_axis</definition>
+        <argsstring>()</argsstring>
+        <name>rotate_axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="363" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="363" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1ac3b4d37a5184425e327ff0ec0754ced6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::calc_angle</definition>
+        <argsstring>()</argsstring>
+        <name>calc_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="414" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="414" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1aee13f1c088479d2c414da9cbb25d7c65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::project</definition>
+        <argsstring>()</argsstring>
+        <name>project</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="425" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="425" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1aa0a2e58b081bb7079b094c0b8ab974cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Three_To_Two::findInVector</definition>
+        <argsstring>(vector&lt; Vertex2D &gt; vec, Vertex2D v)</argsstring>
+        <name>findInVector</name>
+        <param>
+          <type>vector&lt; <ref refid="struct_vertex2_d" kindref="compound">Vertex2D</ref> &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_vertex2_d" kindref="compound">Vertex2D</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="550" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="550" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1a4b6515193b0bf2798ef792c0fc2998f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::writeOutput</definition>
+        <argsstring>(string out)</argsstring>
+        <name>writeOutput</name>
+        <param>
+          <type>string</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="560" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="560" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="class_three___to___two_1ab630fa931ae0d5f46da926ad18e831f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Three_To_Two::plotOutput</definition>
+        <argsstring>(string out)</argsstring>
+        <name>plotOutput</name>
+        <param>
+          <type>string</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreeToTwo.cpp" line="601" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="601" bodyend="706"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="18">
+        <label>Three_To_Two</label>
+        <link refid="class_three___to___two"/>
+        <childnode refid="19" relation="usage">
+          <edgelabel>new_x</edgelabel>
+          <edgelabel>new_y</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Vertex3D</label>
+        <link refid="struct_vertex3_d"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/ThreeToTwo.cpp" line="13" column="1" bodyfile="src/ThreeToTwo.cpp" bodystart="12" bodyend="708"/>
+    <listofallmembers>
+      <member refid="class_three___to___two_1a8396aaabde6a54cdc6a36b6d263d94e5" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>a</name></member>
+      <member refid="class_three___to___two_1a6a7cf88c8d654edd486bc979284c256a" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>alpha</name></member>
+      <member refid="class_three___to___two_1a4859d8dc45f60e772c55ab2923bab71c" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>b</name></member>
+      <member refid="class_three___to___two_1a36bafd8c3cf8db0e6ea4f6f936922e3d" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>beta</name></member>
+      <member refid="class_three___to___two_1aaf40e46b50333549d03205a22974fce0" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>c</name></member>
+      <member refid="class_three___to___two_1ac3b4d37a5184425e327ff0ec0754ced6" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>calc_angle</name></member>
+      <member refid="class_three___to___two_1abfb1f1c097808c8faf3f6cb28911491d" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>choice</name></member>
+      <member refid="class_three___to___two_1a98ab641ba7f2da5fffbe0066debcafaa" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>correspond</name></member>
+      <member refid="class_three___to___two_1aafa5fc739b2313e58a440d9b8b3d4875" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>edges</name></member>
+      <member refid="class_three___to___two_1a2f86f24e2cbd6f19b7288c3b0f401f49" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>faces_vertices</name></member>
+      <member refid="class_three___to___two_1aa0a2e58b081bb7079b094c0b8ab974cc" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>findInVector</name></member>
+      <member refid="class_three___to___two_1aefe3e71b2a022c70407771625a5b416e" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>gamma</name></member>
+      <member refid="class_three___to___two_1ab3a3cda1a3f0e61b927c87e0a9655de6" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>getInput</name></member>
+      <member refid="class_three___to___two_1a00c909f873cde40038e9e077f9349162" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>getPlane</name></member>
+      <member refid="class_three___to___two_1acdd6380173d6df1ce3d72c911ba0f1af" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>input_file</name></member>
+      <member refid="class_three___to___two_1a9e131241a48170afd8af54e30ee95ded" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>m</name></member>
+      <member refid="class_three___to___two_1ab89e25f994881aea2bdae437e397f970" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>model</name></member>
+      <member refid="class_three___to___two_1a3893134e478349a3df093541bc35f406" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>n</name></member>
+      <member refid="class_three___to___two_1a42a8bb1919cbeaa1a717ecea05468493" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>n_edges</name></member>
+      <member refid="class_three___to___two_1aef5084fad08c5eeac58437d90113122f" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>n_faces</name></member>
+      <member refid="class_three___to___two_1a5e20357c42384b2e7aecfdf88ccbd898" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>new_x</name></member>
+      <member refid="class_three___to___two_1a6d516a8a5fa8b8ee2dd1c64195725ab7" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>new_y</name></member>
+      <member refid="class_three___to___two_1a94c401d2acc198ffb188d37e7ce424c4" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>output_file</name></member>
+      <member refid="class_three___to___two_1ab630fa931ae0d5f46da926ad18e831f6" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>plotOutput</name></member>
+      <member refid="class_three___to___two_1a10db4a5f7a04743b00ce1f9215147dcc" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>pointToProj</name></member>
+      <member refid="class_three___to___two_1aee13f1c088479d2c414da9cbb25d7c65" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>project</name></member>
+      <member refid="class_three___to___two_1a39ed690740565f107b2b65a678e0ab5e" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>projection</name></member>
+      <member refid="class_three___to___two_1abb86c66855183ae0463c28af722997bb" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>projLabels</name></member>
+      <member refid="class_three___to___two_1a579ed77ab975e6cfb1cf90d28074a93b" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>result</name></member>
+      <member refid="class_three___to___two_1a741076f262ae512cca81ecff5f6f6b3b" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>rotate_axis</name></member>
+      <member refid="class_three___to___two_1aa783af2e5ff93ec80cb54bd9d70596ce" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>scale</name></member>
+      <member refid="class_three___to___two_1a6e2169c85306e089975e4be179ab8869" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>scale_factor</name></member>
+      <member refid="class_three___to___two_1a879354b0418511bd700d3f19c3cf8cbc" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>setPlane</name></member>
+      <member refid="class_three___to___two_1afcfa094efbefe5fc2c68129f0019328c" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>shift_origin</name></member>
+      <member refid="class_three___to___two_1a2550b425f64bae1a0f92f5405dab24b2" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>vertices</name></member>
+      <member refid="class_three___to___two_1a1116965a6138a9b16fee724eccff6ba5" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>vertices2D</name></member>
+      <member refid="class_three___to___two_1ab76600933c530c9a6e7a54cf39df7bc9" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>vertices_faces</name></member>
+      <member refid="class_three___to___two_1a08809b4ff50badda240d9adb8847405c" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>vertices_list</name></member>
+      <member refid="class_three___to___two_1a4b6515193b0bf2798ef792c0fc2998f4" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>writeOutput</name></member>
+      <member refid="class_three___to___two_1a62f60abbec70c062d40369bae26d8bfc" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>x</name></member>
+      <member refid="class_three___to___two_1a74c72941752a52a87c13e4268ec37cc8" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>y</name></member>
+      <member refid="class_three___to___two_1a2dc98edd9d60378c346b61e988f966f9" prot="public" virt="non-virtual"><scope>Three_To_Two</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

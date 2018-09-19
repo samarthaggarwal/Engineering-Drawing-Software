@@ -1,0 +1,321 @@
+.TH "Three_To_Two" 3 "Thu Apr 5 2018" "COP290" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Three_To_Two \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBgetInput\fP (string in)"
+.br
+.ti -1c
+.RI "void \fBsetPlane\fP (float \fBa1\fP, float \fBb1\fP, float \fBc1\fP)"
+.br
+.ti -1c
+.RI "void \fBgetPlane\fP ()"
+.br
+.ti -1c
+.RI "void \fBshift_origin\fP (bool calculate, bool \fBupdate\fP)"
+.br
+.ti -1c
+.RI "void \fBscale\fP (float factor, bool autoscale, bool \fBupdate\fP)"
+.br
+.ti -1c
+.RI "void \fBrotate_axis\fP ()"
+.br
+.ti -1c
+.RI "void \fBcalc_angle\fP ()"
+.br
+.ti -1c
+.RI "void \fBproject\fP ()"
+.br
+.ti -1c
+.RI "bool \fBfindInVector\fP (vector< \fBVertex2D\fP > vec, \fBVertex2D\fP v)"
+.br
+.ti -1c
+.RI "void \fBwriteOutput\fP (string out)"
+.br
+.ti -1c
+.RI "void \fBplotOutput\fP (string out)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "map< string, vector< \fBVertex2D\fP > > \fBprojection\fP"
+.br
+.ti -1c
+.RI "map< string, list< \fBVertex3D\fP > > \fBmodel\fP"
+.br
+.ti -1c
+.RI "map< string, string > \fBpointToProj\fP"
+.br
+.ti -1c
+.RI "map< string, vector< \fBVertex3D\fP > > \fBprojLabels\fP"
+.br
+.ti -1c
+.RI "map< string, vector< string > > \fBfaces_vertices\fP"
+.br
+.ti -1c
+.RI "map< string, vector< string > > \fBvertices_faces\fP"
+.br
+.ti -1c
+.RI "float \fBx\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBy\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBz\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBa\fP = 1\&.0"
+.br
+.ti -1c
+.RI "float \fBb\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBc\fP = 0\&.0"
+.br
+.ti -1c
+.RI "int \fBchoice\fP =0"
+.br
+.ti -1c
+.RI "\fBVertex3D\fP \fBnew_x\fP"
+.br
+.ti -1c
+.RI "\fBVertex3D\fP \fBnew_y\fP"
+.br
+.ti -1c
+.RI "string \fBinput_file\fP"
+.br
+.ti -1c
+.RI "string \fBoutput_file\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex3D\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex2D\fP > \fBresult\fP"
+.br
+.ti -1c
+.RI "map< pair< float, float >, vector< string > > \fBvertices2D\fP"
+.br
+.ti -1c
+.RI "int \fBm\fP =0"
+.br
+.ti -1c
+.RI "int \fBn_edges\fP =0"
+.br
+.ti -1c
+.RI "int \fBn_faces\fP =0"
+.br
+.ti -1c
+.RI "map< string, string > \fBcorrespond\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBedges\fP"
+.br
+.ti -1c
+.RI "int \fBn\fP = 0"
+.br
+.ti -1c
+.RI "float \fBscale_factor\fP = 1"
+.br
+.ti -1c
+.RI "vector< string > \fBvertices_list\fP"
+.br
+.ti -1c
+.RI "float \fBalpha\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBbeta\fP = 0\&.0"
+.br
+.ti -1c
+.RI "float \fBgamma\fP = 0\&.0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 12 of file ThreeToTwo\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Three_To_Two::calc_angle ()\fC [inline]\fP"
+
+.PP
+Definition at line 414 of file ThreeToTwo\&.cpp\&.
+.SS "bool Three_To_Two::findInVector (vector< \fBVertex2D\fP > vec, \fBVertex2D\fP v)\fC [inline]\fP"
+
+.PP
+Definition at line 550 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::getInput (string in)\fC [inline]\fP"
+
+.PP
+Definition at line 69 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::getPlane ()\fC [inline]\fP"
+
+.PP
+Definition at line 188 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::plotOutput (string out)\fC [inline]\fP"
+
+.PP
+Definition at line 601 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::project ()\fC [inline]\fP"
+
+.PP
+Definition at line 425 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::rotate_axis ()\fC [inline]\fP"
+
+.PP
+Definition at line 363 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::scale (float factor, bool autoscale, bool update)\fC [inline]\fP"
+
+.PP
+Definition at line 302 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::setPlane (float a1, float b1, float c1)\fC [inline]\fP"
+
+.PP
+Definition at line 181 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::shift_origin (bool calculate, bool update)\fC [inline]\fP"
+
+.PP
+Definition at line 250 of file ThreeToTwo\&.cpp\&.
+.SS "void Three_To_Two::writeOutput (string out)\fC [inline]\fP"
+
+.PP
+Definition at line 560 of file ThreeToTwo\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "float Three_To_Two::a = 1\&.0"
+
+.PP
+Definition at line 34 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::alpha = 0\&.0"
+
+.PP
+Definition at line 66 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::b = 0\&.0"
+
+.PP
+Definition at line 35 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::beta = 0\&.0"
+
+.PP
+Definition at line 66 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::c = 0\&.0"
+
+.PP
+Definition at line 36 of file ThreeToTwo\&.cpp\&.
+.SS "int Three_To_Two::choice =0"
+
+.PP
+Definition at line 38 of file ThreeToTwo\&.cpp\&.
+.SS "map<string,string> Three_To_Two::correspond"
+
+.PP
+Definition at line 55 of file ThreeToTwo\&.cpp\&.
+.SS "vector<pair<string,string> > Three_To_Two::edges"
+
+.PP
+Definition at line 58 of file ThreeToTwo\&.cpp\&.
+.SS "map< string, vector<string> > Three_To_Two::faces_vertices"
+
+.PP
+Definition at line 28 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::gamma = 0\&.0"
+
+.PP
+Definition at line 66 of file ThreeToTwo\&.cpp\&.
+.SS "string Three_To_Two::input_file"
+
+.PP
+Definition at line 43 of file ThreeToTwo\&.cpp\&.
+.SS "int Three_To_Two::m =0"
+
+.PP
+Definition at line 53 of file ThreeToTwo\&.cpp\&.
+.SS "map<string, list<\fBVertex3D\fP> > Three_To_Two::model"
+
+.PP
+Definition at line 19 of file ThreeToTwo\&.cpp\&.
+.SS "int Three_To_Two::n = 0"
+
+.PP
+Definition at line 60 of file ThreeToTwo\&.cpp\&.
+.SS "int Three_To_Two::n_edges =0"
+
+.PP
+Definition at line 53 of file ThreeToTwo\&.cpp\&.
+.SS "int Three_To_Two::n_faces =0"
+
+.PP
+Definition at line 53 of file ThreeToTwo\&.cpp\&.
+.SS "\fBVertex3D\fP Three_To_Two::new_x"
+
+.PP
+Definition at line 40 of file ThreeToTwo\&.cpp\&.
+.SS "\fBVertex3D\fP Three_To_Two::new_y"
+
+.PP
+Definition at line 40 of file ThreeToTwo\&.cpp\&.
+.SS "string Three_To_Two::output_file"
+
+.PP
+Definition at line 44 of file ThreeToTwo\&.cpp\&.
+.SS "map< string, string> Three_To_Two::pointToProj"
+
+.PP
+Definition at line 22 of file ThreeToTwo\&.cpp\&.
+.SS "map<string, vector<\fBVertex2D\fP> > Three_To_Two::projection"
+
+.PP
+Definition at line 17 of file ThreeToTwo\&.cpp\&.
+.SS "map< string, vector<\fBVertex3D\fP> > Three_To_Two::projLabels"
+
+.PP
+Definition at line 25 of file ThreeToTwo\&.cpp\&.
+.SS "map<string, \fBVertex2D\fP> Three_To_Two::result"
+
+.PP
+Definition at line 50 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::scale_factor = 1"
+
+.PP
+Definition at line 61 of file ThreeToTwo\&.cpp\&.
+.SS "map<string, \fBVertex3D\fP> Three_To_Two::vertices"
+
+.PP
+Definition at line 47 of file ThreeToTwo\&.cpp\&.
+.SS "map<pair<float,float>, vector<string> > Three_To_Two::vertices2D"
+
+.PP
+Definition at line 52 of file ThreeToTwo\&.cpp\&.
+.SS "map< string, vector<string> > Three_To_Two::vertices_faces"
+
+.PP
+Definition at line 31 of file ThreeToTwo\&.cpp\&.
+.SS "vector<string> Three_To_Two::vertices_list"
+
+.PP
+Definition at line 64 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::x = 0\&.0"
+
+.PP
+Definition at line 33 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::y = 0\&.0"
+
+.PP
+Definition at line 33 of file ThreeToTwo\&.cpp\&.
+.SS "float Three_To_Two::z = 0\&.0"
+
+.PP
+Definition at line 33 of file ThreeToTwo\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for COP290 from the source code\&.

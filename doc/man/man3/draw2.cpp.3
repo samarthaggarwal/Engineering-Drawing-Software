@@ -1,0 +1,282 @@
+.TH "src/draw2.cpp" 3 "Thu Apr 5 2018" "COP290" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/draw2.cpp \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <math\&.h>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <GL/glut\&.h>\fP
+.br
+\fC#include '\&.\&./lib/Vertex\&.cpp'\fP
+.br
+\fC#include 'TwoToThree\&.cpp'\fP
+.br
+\fC#include 'ThreeToTwo\&.cpp'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBPI\fP   3\&.1415926536"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBupdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBidle_fn\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplay1\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplay2\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplay3\fP ()"
+.br
+.ti -1c
+.RI "void \fBSpecial_Keys\fP (int key, int x, int y)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "bool \fBfirst\fP =true"
+.br
+.ti -1c
+.RI "int \fBchoice\fP"
+.br
+.ti -1c
+.RI "bool \fBchoice2to3\fP =true"
+.br
+.ti -1c
+.RI "bool \fBchoice3to2\fP =true"
+.br
+.ti -1c
+.RI "float \fBa\fP"
+.br
+.ti -1c
+.RI "float \fBb\fP"
+.br
+.ti -1c
+.RI "float \fBc\fP"
+.br
+.ti -1c
+.RI "float \fBa1\fP"
+.br
+.ti -1c
+.RI "float \fBb1\fP"
+.br
+.ti -1c
+.RI "float \fBc1\fP"
+.br
+.ti -1c
+.RI "float \fBa2\fP"
+.br
+.ti -1c
+.RI "float \fBb2\fP"
+.br
+.ti -1c
+.RI "float \fBc2\fP"
+.br
+.ti -1c
+.RI "float \fBr_x\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBr_y\fP =0\&.0"
+.br
+.ti -1c
+.RI "string \fBd3_inFile\fP"
+.br
+.ti -1c
+.RI "string \fBd2_inFile_xy\fP"
+.br
+.ti -1c
+.RI "string \fBd2_inFile_yz\fP"
+.br
+.ti -1c
+.RI "string \fBd2_inFile_zx\fP"
+.br
+.ti -1c
+.RI "int \fBmain_window\fP"
+.br
+.ti -1c
+.RI "int \fBsub_window1\fP"
+.br
+.ti -1c
+.RI "int \fBsub_window2\fP"
+.br
+.ti -1c
+.RI "int \fBsub_window3\fP"
+.br
+.ti -1c
+.RI "int \fBsub_window4\fP"
+.br
+.ti -1c
+.RI "int \fBang\fP =30"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define PI   3\&.1415926536"
+
+.PP
+Definition at line 6 of file draw2\&.cpp\&.
+.SH "Function Documentation"
+.PP 
+.SS "void display ()"
+
+.PP
+Definition at line 314 of file draw2\&.cpp\&.
+.SS "void display1 ()"
+
+.PP
+Definition at line 363 of file draw2\&.cpp\&.
+.SS "void display2 ()"
+
+.PP
+Definition at line 412 of file draw2\&.cpp\&.
+.SS "void display3 ()"
+
+.PP
+Definition at line 461 of file draw2\&.cpp\&.
+.SS "void idle_fn ()"
+
+.PP
+Definition at line 298 of file draw2\&.cpp\&.
+.SS "int main (int argc, char ** argv)"
+
+.PP
+Definition at line 534 of file draw2\&.cpp\&.
+.SS "void Special_Keys (int key, int x, int y)"
+
+.PP
+Definition at line 509 of file draw2\&.cpp\&.
+.SS "void update ()"
+
+.PP
+Definition at line 27 of file draw2\&.cpp\&.
+.SH "Variable Documentation"
+.PP 
+.SS "float a"
+
+.PP
+Definition at line 19 of file draw2\&.cpp\&.
+.SS "float a1"
+
+.PP
+Definition at line 20 of file draw2\&.cpp\&.
+.SS "float a2"
+
+.PP
+Definition at line 21 of file draw2\&.cpp\&.
+.SS "int ang =30"
+
+.PP
+Definition at line 292 of file draw2\&.cpp\&.
+.SS "float b"
+
+.PP
+Definition at line 19 of file draw2\&.cpp\&.
+.SS "float b1"
+
+.PP
+Definition at line 20 of file draw2\&.cpp\&.
+.SS "float b2"
+
+.PP
+Definition at line 21 of file draw2\&.cpp\&.
+.SS "float c"
+
+.PP
+Definition at line 19 of file draw2\&.cpp\&.
+.SS "float c1"
+
+.PP
+Definition at line 20 of file draw2\&.cpp\&.
+.SS "float c2"
+
+.PP
+Definition at line 21 of file draw2\&.cpp\&.
+.SS "int choice"
+
+.PP
+Definition at line 16 of file draw2\&.cpp\&.
+.SS "bool choice2to3 =true"
+
+.PP
+Definition at line 17 of file draw2\&.cpp\&.
+.SS "bool choice3to2 =true"
+
+.PP
+Definition at line 18 of file draw2\&.cpp\&.
+.SS "string d2_inFile_xy"
+
+.PP
+Definition at line 23 of file draw2\&.cpp\&.
+.SS "string d2_inFile_yz"
+
+.PP
+Definition at line 23 of file draw2\&.cpp\&.
+.SS "string d2_inFile_zx"
+
+.PP
+Definition at line 23 of file draw2\&.cpp\&.
+.SS "string d3_inFile"
+
+.PP
+Definition at line 23 of file draw2\&.cpp\&.
+.SS "bool first =true"
+
+.PP
+Definition at line 15 of file draw2\&.cpp\&.
+.SS "int main_window"
+
+.PP
+Definition at line 25 of file draw2\&.cpp\&.
+.SS "float r_x =0\&.0"
+
+.PP
+Definition at line 22 of file draw2\&.cpp\&.
+.SS "float r_y =0\&.0"
+
+.PP
+Definition at line 22 of file draw2\&.cpp\&.
+.SS "int sub_window1"
+
+.PP
+Definition at line 25 of file draw2\&.cpp\&.
+.SS "int sub_window2"
+
+.PP
+Definition at line 25 of file draw2\&.cpp\&.
+.SS "int sub_window3"
+
+.PP
+Definition at line 25 of file draw2\&.cpp\&.
+.SS "int sub_window4"
+
+.PP
+Definition at line 25 of file draw2\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for COP290 from the source code\&.

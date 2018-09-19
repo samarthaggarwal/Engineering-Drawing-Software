@@ -1,0 +1,200 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\Large\itshape} % format
+{Project \ \thechapter} % label
+{0.5ex} % sep
+{
+    \rule{\textwidth}{1pt}
+    \vspace{1ex}
+    \centering
+} % before-code
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+] % after-code
+
+\begin{document}
+
+\tableofcontents
+
+\chapter{Engineering Drawing Tool}
+ 
+\section*{Objective}
+ 
+To design and implement a software package for Engineering drawing. The package should have the following functionalities:
+
+\begin{itemize}
+    \item We should be able to interactively input or read from a file either i) an isometric drawing and a 3D object model or ii) projections on to any cross section.
+    
+    \item Given the 3D model description we should be able to generate projections on to any cross section or cutting plane.
+    
+    \item Given two or more projections we should be able to interactively recover the 3D description and produce an isometric drawing from any view direction. 
+    
+\end{itemize}
+
+\section{Mathematical Modeling and analysis}
+ 
+Work out a mathematical model for the problem. Figure out how many views are necessary? how many are sufficient? How can one compute projections given the 3D description? How can one compute the 3D description given one or more projections? What interactions are necessary?
+ 
+\subsection{Views}
+
+\subsubsection{3D To 2D}
+
+Given the 3D view, we can get a set of three orthographic views by looking at the figure from the three axes namely \textit{x, y and z}.
+
+The the respective viewable faces determine the angle of projections (I or III) in which the orthographic projections will be drawn.
+
+\texttt{( For details view Section 1.1.2 )}
+
+\subsubsection{2D To 3D}
+
+\begin{enumerate}
+    \item \texttt{Single Orthographic View}
+    
+    From a single Orthographic projection, in general we can't infer anything from it and will merely able to get the vague idea of the 3D model. The family of 3D models derived will not be well defined.
+    
+    \item \texttt{Two Orthographic View}
+    
+    From two Orthographic projection, in general we can get a well-defined family of 3D models with minute errors.
+    
+    \item \texttt{Three Orthographic View}
+    
+    Three orthographic projections gives us all the details of the 3D model and we will get a unique solution.
+    
+    \texttt{( For details view Section 1.1.2 )}
+
+\end{enumerate}
+
+\subsection{3D to 2D - Isometric to Orthographic}
+
+\subsubsection{Projection without rotation:}
+
+$$
+\left [
+  \begin{tabular}{ccc}
+  1 & 0 & 0 \\
+  0 & 1 & 0
+  \end{tabular}
+\right ]
+\left [
+  \begin{tabular}{c}
+  x \\
+  y \\
+  z
+  \end{tabular}
+\right ]
+ = 
+\left [
+  \begin{tabular}{c}
+  x \\
+  y 
+  \end{tabular}
+\right ]
+$$
+
+$$
+\left [
+  \begin{tabular}{ccc}
+  1 & 0 & 0 \\
+  0 & 0 & 1
+  \end{tabular}
+\right ]
+\left [
+  \begin{tabular}{c}
+  x \\
+  y \\
+  z
+  \end{tabular}
+\right ]
+ = 
+\left [
+  \begin{tabular}{c}
+  x \\
+  z 
+  \end{tabular}
+\right ]
+$$
+
+$$
+\left [
+  \begin{tabular}{ccc}
+  0 & 1 & 0 \\
+  0 & 0 & 1
+  \end{tabular}
+\right ]
+\left [
+  \begin{tabular}{c}
+  x \\
+  y \\
+  z
+  \end{tabular}
+\right ]
+ = 
+\left [
+  \begin{tabular}{c}
+  y \\
+  z 
+  \end{tabular}
+\right ]
+$$
+
+\subsubsection{Basic Rotation :}
+
+$$
+R_x(\theta) = 
+\left [
+  \begin{tabular}{ccc}
+  1 & 0 & 0 \\
+  0 & cos(\theta) & -sin(\theta) \\
+  0 & sin(\theta) & cos(\theta)
+  \end{tabular}
+\right ]
+$$
+
+$$
+R_y(\theta) = 
+\left [
+  \begin{tabular}{ccc}
+  cos(\theta) & 0 & -sin(\theta) \\
+  0 & 1 & 0 \\
+  sin(\theta) & 0 & cos(\theta)
+  \end{tabular}
+\right ]
+$$
+
+$$
+R_z(\theta) = 
+\left [
+  \begin{tabular}{ccc}
+  \cos(\theta) & -sin(\theta) & 0 \\
+  \sin(\theta) & cos(\theta) & 0 \\
+  0 & 0 & 1
+  \end{tabular}
+\right ]
+$$
+
+\subsection{General Rotation :}
+
+$$
+R = R_x(\alpha)R_y(\beta)R_z(\gamma)
+$$
+
+\subsection{2D to 3D - Orthographic to Isometric}
+
+
+\section{Software requirement specification}
+
+\section{Software design document}
+
+\section{Implementation and software documentation}
+
+\section{Testing and fine tuning}
+
+\section{Report}
+
+\end{document}

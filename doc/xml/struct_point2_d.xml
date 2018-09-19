@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct_point2_d" kind="struct" language="C++" prot="public">
+    <compoundname>Point2D</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_point2_d_1a2a5ef0ad00bc9e912a9aefcedf004cc4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Point2D::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/Vertex.cpp" line="13" column="1" bodyfile="lib/Vertex.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_point2_d_1a989485fd2d8026ceec5d57e8c7e629ab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Point2D::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/Vertex.cpp" line="14" column="1" bodyfile="lib/Vertex.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/Vertex.cpp" line="12" column="1" bodyfile="lib/Vertex.cpp" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_point2_d_1a2a5ef0ad00bc9e912a9aefcedf004cc4" prot="public" virt="non-virtual"><scope>Point2D</scope><name>x</name></member>
+      <member refid="struct_point2_d_1a989485fd2d8026ceec5d57e8c7e629ab" prot="public" virt="non-virtual"><scope>Point2D</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+8
+a 0 0 0
+b 1 0 0
+c 1 1 0
+d 0 1 0
+e 0 0 1
+f 1 0 1
+g 1 1 1
+h 0 1 1
+12
+a b
+a d
+a e
+b c
+b f
+c d
+c g
+d h
+e f
+e h
+f g
+g h
+6
+4 a b c d
+4 e f g h
+4 a b f e
+4 d c g h
+4 b c g f
+4 a d h e
+
+-------------------------------------------
+
+6
+a 0 0 0
+b 1 0 0
+c 1 1 0
+d 0 1 0
+f 1 0 1
+g 1 1 1
+9
+a b
+a d
+b c
+b f
+c d
+c g
+f g
+a f
+d g
+5
+4 a b c d
+4 b c g f
+4 a f g d
+3 a b f
+3 d c g

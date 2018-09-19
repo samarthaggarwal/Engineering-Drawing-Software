@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="_vertex_8cpp" kind="file" language="C++">
+    <compoundname>Vertex.cpp</compoundname>
+    <includes local="no">bits/stdc++.h</includes>
+    <includedby refid="draw_8cpp" local="yes">src/draw.cpp</includedby>
+    <includedby refid="draw2_8cpp" local="yes">src/draw2.cpp</includedby>
+    <incdepgraph>
+      <node id="59">
+        <label>bits/stdc++.h</label>
+      </node>
+      <node id="58">
+        <label>lib/Vertex.cpp</label>
+        <link refid="Vertex.cpp"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="62">
+        <label>src/draw2.cpp</label>
+        <link refid="draw2_8cpp"/>
+      </node>
+      <node id="60">
+        <label>lib/Vertex.cpp</label>
+        <link refid="Vertex.cpp"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>src/draw.cpp</label>
+        <link refid="draw_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_vertex2_d" prot="public">Vertex2D</innerclass>
+    <innerclass refid="struct_point2_d" prot="public">Point2D</innerclass>
+    <innerclass refid="struct_vertex3_d" prot="public">Vertex3D</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_vertex_8cpp_1af4e16a3ca1c1611d433c534186674990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sortfunc</definition>
+        <argsstring>(const Vertex3D &amp;lhs, const Vertex3D &amp;rhs)</argsstring>
+        <name>sortfunc</name>
+        <param>
+          <type>const <ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/Vertex.cpp" line="27" column="1" bodyfile="lib/Vertex.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include&lt;bits/stdc++.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="struct_vertex2_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_vertex2_d" kindref="compound">Vertex2D</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="struct_vertex2_d_1a549a8dbf41453045e1ffe05f0fd5e288" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_vertex2_d_1a549a8dbf41453045e1ffe05f0fd5e288" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="7" refid="struct_vertex2_d_1a39275a5945c972e573be08b52031a7d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex2_d_1a39275a5945c972e573be08b52031a7d4" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="8" refid="struct_vertex2_d_1ac3948cfb8740e52bfa30daaf17cc5043" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex2_d_1ac3948cfb8740e52bfa30daaf17cc5043" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="struct_point2_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_point2_d" kindref="compound">Point2D</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="struct_point2_d_1a2a5ef0ad00bc9e912a9aefcedf004cc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_point2_d_1a2a5ef0ad00bc9e912a9aefcedf004cc4" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="14" refid="struct_point2_d_1a989485fd2d8026ceec5d57e8c7e629ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_point2_d_1a989485fd2d8026ceec5d57e8c7e629ab" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="struct_vertex3_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="struct_vertex3_d_1a4b0958099770a13662a0b4f95bccf4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d_1a4b0958099770a13662a0b4f95bccf4ff" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="21" refid="struct_vertex3_d_1a31874fac8de9ea8aa004f7d62c3b0a82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d_1a31874fac8de9ea8aa004f7d62c3b0a82" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="22" refid="struct_vertex3_d_1acc2ceb770e03d6facf4c921de0eaf3d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d_1acc2ceb770e03d6facf4c921de0eaf3d8" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="23" refid="struct_vertex3_d_1af04a23eeeea792a53123e2d622395f8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d_1af04a23eeeea792a53123e2d622395f8f" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="24" refid="struct_vertex3_d_1aba4baf3fd67dd3668a921b1030d089dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d_1aba4baf3fd67dd3668a921b1030d089dd" kindref="member">distance</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="_vertex_8cpp_1af4e16a3ca1c1611d433c534186674990" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_vertex_8cpp_1af4e16a3ca1c1611d433c534186674990" kindref="member">sortfunc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref>&amp;<sp/>lhs<sp/>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_vertex3_d" kindref="compound">Vertex3D</ref>&amp;<sp/>rhs){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="struct_vertex3_d_1aba4baf3fd67dd3668a921b1030d089dd" kindref="member">distance</ref><sp/>&lt;<sp/>rhs.<ref refid="struct_vertex3_d_1aba4baf3fd67dd3668a921b1030d089dd" kindref="member">distance</ref><sp/>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/Vertex.cpp"/>
+  </compounddef>
+</doxygen>

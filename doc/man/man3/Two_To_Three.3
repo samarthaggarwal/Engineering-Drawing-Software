@@ -1,0 +1,251 @@
+.TH "Two_To_Three" 3 "Thu Apr 5 2018" "COP290" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Two_To_Three \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBgetInput\fP (string xy, string yz, string zx)"
+.br
+.ti -1c
+.RI "void \fBexpand_h\fP (vector< pair< string, string >> &edge_xy1, map< string, vector< string > > &rev_xy1, vector< pair< string, string >> &exp_xy1)"
+.br
+.ti -1c
+.RI "void \fBexpand\fP ()"
+.br
+.ti -1c
+.RI "void \fBeliminate_h\fP (vector< pair< string, string >> &exp_xy1, vector< pair< string, string >> &exp_xy2, map< string, string > map_xy2)"
+.br
+.ti -1c
+.RI "void \fBeliminate\fP ()"
+.br
+.ti -1c
+.RI "void \fBfind_all\fP ()"
+.br
+.ti -1c
+.RI "void \fBedges_one\fP (vector< pair< string, string >> &exp_xy1)"
+.br
+.ti -1c
+.RI "void \fBedges_all\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteOutput\fP (string out)"
+.br
+.ti -1c
+.RI "void \fBplotOutput\fP (string out)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBxy_file\fP"
+.br
+.ti -1c
+.RI "string \fByz_file\fP"
+.br
+.ti -1c
+.RI "string \fBzx_file\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex3D\fP > \fBmodel\fP"
+.br
+.ti -1c
+.RI "set< string > \fBvertices_list\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex2D\fP > \fBvertices_xy\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex2D\fP > \fBvertices_yz\fP"
+.br
+.ti -1c
+.RI "map< string, \fBVertex2D\fP > \fBvertices_zx\fP"
+.br
+.ti -1c
+.RI "map< string, string > \fBmap_xy\fP"
+.br
+.ti -1c
+.RI "map< string, string > \fBmap_yz\fP"
+.br
+.ti -1c
+.RI "map< string, string > \fBmap_zx\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBedge_xy\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBedge_yz\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBedge_zx\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBexp_xy\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBexp_yz\fP"
+.br
+.ti -1c
+.RI "vector< pair< string, string > > \fBexp_zx\fP"
+.br
+.ti -1c
+.RI "map< string, vector< string > > \fBrev_xy\fP"
+.br
+.ti -1c
+.RI "map< string, vector< string > > \fBrev_yz\fP"
+.br
+.ti -1c
+.RI "map< string, vector< string > > \fBrev_zx\fP"
+.br
+.ti -1c
+.RI "set< pair< string, string > > \fBedges\fP"
+.br
+.ti -1c
+.RI "float \fBscale_factor\fP = 1"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file TwoToThree\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Two_To_Three::edges_all ()\fC [inline]\fP"
+
+.PP
+Definition at line 386 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::edges_one (vector< pair< string, string >> & exp_xy1)\fC [inline]\fP"
+
+.PP
+Definition at line 376 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::eliminate ()\fC [inline]\fP"
+
+.PP
+Definition at line 301 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::eliminate_h (vector< pair< string, string >> & exp_xy1, vector< pair< string, string >> & exp_xy2, map< string, string > map_xy2)\fC [inline]\fP"
+
+.PP
+Definition at line 260 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::expand ()\fC [inline]\fP"
+
+.PP
+Definition at line 250 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::expand_h (vector< pair< string, string >> & edge_xy1, map< string, vector< string > > & rev_xy1, vector< pair< string, string >> & exp_xy1)\fC [inline]\fP"
+
+.PP
+Definition at line 222 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::find_all ()\fC [inline]\fP"
+
+.PP
+Definition at line 315 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::getInput (string xy, string yz, string zx)\fC [inline]\fP"
+
+.PP
+Definition at line 56 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::plotOutput (string out)\fC [inline]\fP"
+
+.PP
+Definition at line 431 of file TwoToThree\&.cpp\&.
+.SS "void Two_To_Three::writeOutput (string out)\fC [inline]\fP"
+
+.PP
+Definition at line 395 of file TwoToThree\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "vector<pair<string,string> > Two_To_Three::edge_xy"
+
+.PP
+Definition at line 34 of file TwoToThree\&.cpp\&.
+.SS "vector<pair<string,string> > Two_To_Three::edge_yz"
+
+.PP
+Definition at line 35 of file TwoToThree\&.cpp\&.
+.SS "vector<pair<string,string> > Two_To_Three::edge_zx"
+
+.PP
+Definition at line 36 of file TwoToThree\&.cpp\&.
+.SS "set<pair<string,string> > Two_To_Three::edges"
+
+.PP
+Definition at line 49 of file TwoToThree\&.cpp\&.
+.SS "vector<pair<string,string> > Two_To_Three::exp_xy"
+
+.PP
+Definition at line 39 of file TwoToThree\&.cpp\&.
+.SS "vector<pair<string,string> > Two_To_Three::exp_yz"
+
+.PP
+Definition at line 40 of file TwoToThree\&.cpp\&.
+.SS "vector<pair<string,string> > Two_To_Three::exp_zx"
+
+.PP
+Definition at line 41 of file TwoToThree\&.cpp\&.
+.SS "map<string, string> Two_To_Three::map_xy"
+
+.PP
+Definition at line 29 of file TwoToThree\&.cpp\&.
+.SS "map<string, string> Two_To_Three::map_yz"
+
+.PP
+Definition at line 30 of file TwoToThree\&.cpp\&.
+.SS "map<string, string> Two_To_Three::map_zx"
+
+.PP
+Definition at line 31 of file TwoToThree\&.cpp\&.
+.SS "map<string, \fBVertex3D\fP > Two_To_Three::model"
+
+.PP
+Definition at line 18 of file TwoToThree\&.cpp\&.
+.SS "map<string, vector<string> > Two_To_Three::rev_xy"
+
+.PP
+Definition at line 44 of file TwoToThree\&.cpp\&.
+.SS "map<string, vector<string> > Two_To_Three::rev_yz"
+
+.PP
+Definition at line 45 of file TwoToThree\&.cpp\&.
+.SS "map<string, vector<string> > Two_To_Three::rev_zx"
+
+.PP
+Definition at line 46 of file TwoToThree\&.cpp\&.
+.SS "float Two_To_Three::scale_factor = 1"
+
+.PP
+Definition at line 51 of file TwoToThree\&.cpp\&.
+.SS "set<string> Two_To_Three::vertices_list"
+
+.PP
+Definition at line 21 of file TwoToThree\&.cpp\&.
+.SS "map<string, \fBVertex2D\fP> Two_To_Three::vertices_xy"
+
+.PP
+Definition at line 24 of file TwoToThree\&.cpp\&.
+.SS "map<string, \fBVertex2D\fP> Two_To_Three::vertices_yz"
+
+.PP
+Definition at line 25 of file TwoToThree\&.cpp\&.
+.SS "map<string, \fBVertex2D\fP> Two_To_Three::vertices_zx"
+
+.PP
+Definition at line 26 of file TwoToThree\&.cpp\&.
+.SS "string Two_To_Three::xy_file"
+
+.PP
+Definition at line 15 of file TwoToThree\&.cpp\&.
+.SS "string Two_To_Three::yz_file"
+
+.PP
+Definition at line 15 of file TwoToThree\&.cpp\&.
+.SS "string Two_To_Three::zx_file"
+
+.PP
+Definition at line 15 of file TwoToThree\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for COP290 from the source code\&.

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="struct_point2_d" kind="struct"><name>Point2D</name>
+    <member refid="struct_point2_d_1a2a5ef0ad00bc9e912a9aefcedf004cc4" kind="variable"><name>x</name></member>
+    <member refid="struct_point2_d_1a989485fd2d8026ceec5d57e8c7e629ab" kind="variable"><name>y</name></member>
+  </compound>
+  <compound refid="class_three___to___two" kind="class"><name>Three_To_Two</name>
+    <member refid="class_three___to___two_1a39ed690740565f107b2b65a678e0ab5e" kind="variable"><name>projection</name></member>
+    <member refid="class_three___to___two_1ab89e25f994881aea2bdae437e397f970" kind="variable"><name>model</name></member>
+    <member refid="class_three___to___two_1a10db4a5f7a04743b00ce1f9215147dcc" kind="variable"><name>pointToProj</name></member>
+    <member refid="class_three___to___two_1abb86c66855183ae0463c28af722997bb" kind="variable"><name>projLabels</name></member>
+    <member refid="class_three___to___two_1a2f86f24e2cbd6f19b7288c3b0f401f49" kind="variable"><name>faces_vertices</name></member>
+    <member refid="class_three___to___two_1ab76600933c530c9a6e7a54cf39df7bc9" kind="variable"><name>vertices_faces</name></member>
+    <member refid="class_three___to___two_1a62f60abbec70c062d40369bae26d8bfc" kind="variable"><name>x</name></member>
+    <member refid="class_three___to___two_1a74c72941752a52a87c13e4268ec37cc8" kind="variable"><name>y</name></member>
+    <member refid="class_three___to___two_1a2dc98edd9d60378c346b61e988f966f9" kind="variable"><name>z</name></member>
+    <member refid="class_three___to___two_1a8396aaabde6a54cdc6a36b6d263d94e5" kind="variable"><name>a</name></member>
+    <member refid="class_three___to___two_1a4859d8dc45f60e772c55ab2923bab71c" kind="variable"><name>b</name></member>
+    <member refid="class_three___to___two_1aaf40e46b50333549d03205a22974fce0" kind="variable"><name>c</name></member>
+    <member refid="class_three___to___two_1abfb1f1c097808c8faf3f6cb28911491d" kind="variable"><name>choice</name></member>
+    <member refid="class_three___to___two_1a5e20357c42384b2e7aecfdf88ccbd898" kind="variable"><name>new_x</name></member>
+    <member refid="class_three___to___two_1a6d516a8a5fa8b8ee2dd1c64195725ab7" kind="variable"><name>new_y</name></member>
+    <member refid="class_three___to___two_1acdd6380173d6df1ce3d72c911ba0f1af" kind="variable"><name>input_file</name></member>
+    <member refid="class_three___to___two_1a94c401d2acc198ffb188d37e7ce424c4" kind="variable"><name>output_file</name></member>
+    <member refid="class_three___to___two_1a2550b425f64bae1a0f92f5405dab24b2" kind="variable"><name>vertices</name></member>
+    <member refid="class_three___to___two_1a579ed77ab975e6cfb1cf90d28074a93b" kind="variable"><name>result</name></member>
+    <member refid="class_three___to___two_1a1116965a6138a9b16fee724eccff6ba5" kind="variable"><name>vertices2D</name></member>
+    <member refid="class_three___to___two_1a9e131241a48170afd8af54e30ee95ded" kind="variable"><name>m</name></member>
+    <member refid="class_three___to___two_1a42a8bb1919cbeaa1a717ecea05468493" kind="variable"><name>n_edges</name></member>
+    <member refid="class_three___to___two_1aef5084fad08c5eeac58437d90113122f" kind="variable"><name>n_faces</name></member>
+    <member refid="class_three___to___two_1a98ab641ba7f2da5fffbe0066debcafaa" kind="variable"><name>correspond</name></member>
+    <member refid="class_three___to___two_1aafa5fc739b2313e58a440d9b8b3d4875" kind="variable"><name>edges</name></member>
+    <member refid="class_three___to___two_1a3893134e478349a3df093541bc35f406" kind="variable"><name>n</name></member>
+    <member refid="class_three___to___two_1a6e2169c85306e089975e4be179ab8869" kind="variable"><name>scale_factor</name></member>
+    <member refid="class_three___to___two_1a08809b4ff50badda240d9adb8847405c" kind="variable"><name>vertices_list</name></member>
+    <member refid="class_three___to___two_1a6a7cf88c8d654edd486bc979284c256a" kind="variable"><name>alpha</name></member>
+    <member refid="class_three___to___two_1a36bafd8c3cf8db0e6ea4f6f936922e3d" kind="variable"><name>beta</name></member>
+    <member refid="class_three___to___two_1aefe3e71b2a022c70407771625a5b416e" kind="variable"><name>gamma</name></member>
+    <member refid="class_three___to___two_1ab3a3cda1a3f0e61b927c87e0a9655de6" kind="function"><name>getInput</name></member>
+    <member refid="class_three___to___two_1a879354b0418511bd700d3f19c3cf8cbc" kind="function"><name>setPlane</name></member>
+    <member refid="class_three___to___two_1a00c909f873cde40038e9e077f9349162" kind="function"><name>getPlane</name></member>
+    <member refid="class_three___to___two_1afcfa094efbefe5fc2c68129f0019328c" kind="function"><name>shift_origin</name></member>
+    <member refid="class_three___to___two_1aa783af2e5ff93ec80cb54bd9d70596ce" kind="function"><name>scale</name></member>
+    <member refid="class_three___to___two_1a741076f262ae512cca81ecff5f6f6b3b" kind="function"><name>rotate_axis</name></member>
+    <member refid="class_three___to___two_1ac3b4d37a5184425e327ff0ec0754ced6" kind="function"><name>calc_angle</name></member>
+    <member refid="class_three___to___two_1aee13f1c088479d2c414da9cbb25d7c65" kind="function"><name>project</name></member>
+    <member refid="class_three___to___two_1aa0a2e58b081bb7079b094c0b8ab974cc" kind="function"><name>findInVector</name></member>
+    <member refid="class_three___to___two_1a4b6515193b0bf2798ef792c0fc2998f4" kind="function"><name>writeOutput</name></member>
+    <member refid="class_three___to___two_1ab630fa931ae0d5f46da926ad18e831f6" kind="function"><name>plotOutput</name></member>
+  </compound>
+  <compound refid="class_two___to___three" kind="class"><name>Two_To_Three</name>
+    <member refid="class_two___to___three_1a552bbac302db3a8d39d0b0c9014e717d" kind="variable"><name>xy_file</name></member>
+    <member refid="class_two___to___three_1a17e155076c64e9207f9e10d7db944fbe" kind="variable"><name>yz_file</name></member>
+    <member refid="class_two___to___three_1a102a4276583a481691dd6f717a81e11e" kind="variable"><name>zx_file</name></member>
+    <member refid="class_two___to___three_1aa57efe556b563e0e5b45fa9f1653c1cd" kind="variable"><name>model</name></member>
+    <member refid="class_two___to___three_1a2f42478bfa5c2e759df2caac98e12b22" kind="variable"><name>vertices_list</name></member>
+    <member refid="class_two___to___three_1aa324b095f53b74973a1ed45d80bf401f" kind="variable"><name>vertices_xy</name></member>
+    <member refid="class_two___to___three_1a8052b332b93963257e5e1eff1acbf3f7" kind="variable"><name>vertices_yz</name></member>
+    <member refid="class_two___to___three_1a4bd1e4471ca424af9640f70f6b146fb1" kind="variable"><name>vertices_zx</name></member>
+    <member refid="class_two___to___three_1a699e1b081ba68063b84ee0628f1824f1" kind="variable"><name>map_xy</name></member>
+    <member refid="class_two___to___three_1ab50e85aa8226e964ba2fcbf95fade23d" kind="variable"><name>map_yz</name></member>
+    <member refid="class_two___to___three_1a6c016590ff5c2c305eaa571e6d8f47ed" kind="variable"><name>map_zx</name></member>
+    <member refid="class_two___to___three_1aa0701d423859854d6dcf6a3948c3c797" kind="variable"><name>edge_xy</name></member>
+    <member refid="class_two___to___three_1a8fa25ea9719f9ecea3d8a521f5e7e14c" kind="variable"><name>edge_yz</name></member>
+    <member refid="class_two___to___three_1a1a77bc05b0101d52a3cdeca1cda97382" kind="variable"><name>edge_zx</name></member>
+    <member refid="class_two___to___three_1a0fb51cd40a43e0371a930ecc7ae5cca7" kind="variable"><name>exp_xy</name></member>
+    <member refid="class_two___to___three_1a2fd53fedb88911745fdfe403fe954194" kind="variable"><name>exp_yz</name></member>
+    <member refid="class_two___to___three_1a0fc9541c8e1dc603ace96c135851ad26" kind="variable"><name>exp_zx</name></member>
+    <member refid="class_two___to___three_1a485336245fad21fd41d8552df9fe9dd1" kind="variable"><name>rev_xy</name></member>
+    <member refid="class_two___to___three_1afb85013e1ee6676f359de1f5c9e0a5da" kind="variable"><name>rev_yz</name></member>
+    <member refid="class_two___to___three_1a11ca3157f2afc24a1d896bd8a8232156" kind="variable"><name>rev_zx</name></member>
+    <member refid="class_two___to___three_1a1dea63027222bee8934b66010b0e44a3" kind="variable"><name>edges</name></member>
+    <member refid="class_two___to___three_1a388e406a03a64b5422f1de36c138ecaa" kind="variable"><name>scale_factor</name></member>
+    <member refid="class_two___to___three_1a8cb0750fd7f06f63f7c3959832d14b50" kind="function"><name>getInput</name></member>
+    <member refid="class_two___to___three_1a573db0749ff0865895c0ee59b11af430" kind="function"><name>expand_h</name></member>
+    <member refid="class_two___to___three_1a33d7852f618104a0580629062bdb23df" kind="function"><name>expand</name></member>
+    <member refid="class_two___to___three_1af04b2b2c81700169a740b7527f4fab5b" kind="function"><name>eliminate_h</name></member>
+    <member refid="class_two___to___three_1a8699e9b6b281e00271e1368ef088b14d" kind="function"><name>eliminate</name></member>
+    <member refid="class_two___to___three_1a9dbc9fdd8e73ae2e3a974a624a33a6b0" kind="function"><name>find_all</name></member>
+    <member refid="class_two___to___three_1ad3a0d8e135d0dc58386e0055c70fe105" kind="function"><name>edges_one</name></member>
+    <member refid="class_two___to___three_1a1b181eea2c5309d5264f27a7bb055168" kind="function"><name>edges_all</name></member>
+    <member refid="class_two___to___three_1af29125458d6479842f70e4a6c3fd0301" kind="function"><name>writeOutput</name></member>
+    <member refid="class_two___to___three_1a3638cd9c0c945fa6eec51b890cb5a73b" kind="function"><name>plotOutput</name></member>
+  </compound>
+  <compound refid="structvertex2_d" kind="struct"><name>vertex2D</name>
+    <member refid="structvertex2_d_1a92a0d499a4a4de12f7ea36423eb550b8" kind="variable"><name>label</name></member>
+    <member refid="structvertex2_d_1a2ba74d18c3e8e5a36fd2846a7a4d1a4f" kind="variable"><name>x</name></member>
+    <member refid="structvertex2_d_1a6ca32b6427f8d3ce3437db0bafd92a00" kind="variable"><name>y</name></member>
+  </compound>
+  <compound refid="struct_vertex2_d" kind="struct"><name>Vertex2D</name>
+    <member refid="struct_vertex2_d_1a549a8dbf41453045e1ffe05f0fd5e288" kind="variable"><name>label</name></member>
+    <member refid="struct_vertex2_d_1a39275a5945c972e573be08b52031a7d4" kind="variable"><name>x</name></member>
+    <member refid="struct_vertex2_d_1ac3948cfb8740e52bfa30daaf17cc5043" kind="variable"><name>y</name></member>
+  </compound>
+  <compound refid="structvertex3_d" kind="struct"><name>vertex3D</name>
+    <member refid="structvertex3_d_1a6294e6614f1bb7ac73020c203a5f34c1" kind="variable"><name>label</name></member>
+    <member refid="structvertex3_d_1a6c6ee4315d72adbc5abb17e6af802087" kind="variable"><name>x</name></member>
+    <member refid="structvertex3_d_1aa1f4823bf2a3f648b1b0b39ef7ea5891" kind="variable"><name>y</name></member>
+    <member refid="structvertex3_d_1a67f3819dff895cb47284c34ec85658d7" kind="variable"><name>z</name></member>
+  </compound>
+  <compound refid="struct_vertex3_d" kind="struct"><name>Vertex3D</name>
+    <member refid="struct_vertex3_d_1a4b0958099770a13662a0b4f95bccf4ff" kind="variable"><name>label</name></member>
+    <member refid="struct_vertex3_d_1a31874fac8de9ea8aa004f7d62c3b0a82" kind="variable"><name>x</name></member>
+    <member refid="struct_vertex3_d_1acc2ceb770e03d6facf4c921de0eaf3d8" kind="variable"><name>y</name></member>
+    <member refid="struct_vertex3_d_1af04a23eeeea792a53123e2d622395f8f" kind="variable"><name>z</name></member>
+    <member refid="struct_vertex3_d_1aba4baf3fd67dd3668a921b1030d089dd" kind="variable"><name>distance</name></member>
+  </compound>
+  <compound refid="namespacearma" kind="namespace"><name>arma</name>
+  </compound>
+  <compound refid="namespace_qt" kind="namespace"><name>Qt</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="structs_8h" kind="file"><name>structs.h</name>
+  </compound>
+  <compound refid="_vertex_8cpp" kind="file"><name>Vertex.cpp</name>
+    <member refid="_vertex_8cpp_1af4e16a3ca1c1611d433c534186674990" kind="function"><name>sortfunc</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="draw_8cpp" kind="file"><name>draw.cpp</name>
+    <member refid="draw_8cpp_1a598a3330b3c21701223ee0ca14316eca" kind="define"><name>PI</name></member>
+    <member refid="draw_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="draw2_8cpp" kind="file"><name>draw2.cpp</name>
+    <member refid="draw2_8cpp_1a598a3330b3c21701223ee0ca14316eca" kind="define"><name>PI</name></member>
+    <member refid="draw2_8cpp_1a77e49fc0956d412a05337460c7778c6d" kind="variable"><name>first</name></member>
+    <member refid="draw2_8cpp_1a63bd75f20c553f0d65d7bb29b3f35696" kind="variable"><name>choice</name></member>
+    <member refid="draw2_8cpp_1a92935f074a30dac547e4bc8b6e14e31d" kind="variable"><name>choice2to3</name></member>
+    <member refid="draw2_8cpp_1a13511c29978758fa77a77103770f942f" kind="variable"><name>choice3to2</name></member>
+    <member refid="draw2_8cpp_1a4aec1a5be9d9a4a394a2e49e9744286e" kind="variable"><name>a</name></member>
+    <member refid="draw2_8cpp_1a83fc1af92e29717b4513d121b0c72c7d" kind="variable"><name>b</name></member>
+    <member refid="draw2_8cpp_1ae78103ab33f03590e84ff7bc735629d7" kind="variable"><name>c</name></member>
+    <member refid="draw2_8cpp_1ad36c8f7a507294aa8f53bb0baf28fb24" kind="variable"><name>a1</name></member>
+    <member refid="draw2_8cpp_1a0a909289ec9fbfaa70c0e112ec9e3b15" kind="variable"><name>b1</name></member>
+    <member refid="draw2_8cpp_1a7fea4d2f6f3c31b60301494b136558af" kind="variable"><name>c1</name></member>
+    <member refid="draw2_8cpp_1a0a9ef35b787a9d8a73482c238d0177c4" kind="variable"><name>a2</name></member>
+    <member refid="draw2_8cpp_1a746bcb222044619e5a9b335d242a2a92" kind="variable"><name>b2</name></member>
+    <member refid="draw2_8cpp_1a0fe1885b4d10c978f52619ab968adadc" kind="variable"><name>c2</name></member>
+    <member refid="draw2_8cpp_1ade6a1e5a65fbbbc7812aab91226157d8" kind="variable"><name>r_x</name></member>
+    <member refid="draw2_8cpp_1af623cefe51ccc3108c3cd7328a92b7fb" kind="variable"><name>r_y</name></member>
+    <member refid="draw2_8cpp_1a5e321865280511fce6bc417ba1807491" kind="variable"><name>d3_inFile</name></member>
+    <member refid="draw2_8cpp_1a596148356aa855178797cfa8926f756b" kind="variable"><name>d2_inFile_xy</name></member>
+    <member refid="draw2_8cpp_1ae5b794a1753e5d1a872eae278d803b5b" kind="variable"><name>d2_inFile_yz</name></member>
+    <member refid="draw2_8cpp_1ad46a959b5a8bae75aa7829bf63b1d082" kind="variable"><name>d2_inFile_zx</name></member>
+    <member refid="draw2_8cpp_1a3bf12bd6957e03ad1df6105a272ae95f" kind="variable"><name>main_window</name></member>
+    <member refid="draw2_8cpp_1a597d6e9c3821eba36098286213f88e3b" kind="variable"><name>sub_window1</name></member>
+    <member refid="draw2_8cpp_1a02005a3fb43ee69026c855d98a2bb47f" kind="variable"><name>sub_window2</name></member>
+    <member refid="draw2_8cpp_1aadf72dabdff891c68d71b93c112e98f9" kind="variable"><name>sub_window3</name></member>
+    <member refid="draw2_8cpp_1a5b714d66fd49ed892517d5e8f2f12256" kind="variable"><name>sub_window4</name></member>
+    <member refid="draw2_8cpp_1a4365545fd48c51e8d4fa9ebb99c6a72f" kind="variable"><name>ang</name></member>
+    <member refid="draw2_8cpp_1ac5c54df7ed3b930268c8d7752c101725" kind="function"><name>update</name></member>
+    <member refid="draw2_8cpp_1afa20485a295d6e55ffe9d5c496d1cfa1" kind="function"><name>idle_fn</name></member>
+    <member refid="draw2_8cpp_1a1e5b20fed15743656bb6d2e6a6ea6269" kind="function"><name>display</name></member>
+    <member refid="draw2_8cpp_1af4b6db54ef371626a3d23da2636a4fa0" kind="function"><name>display1</name></member>
+    <member refid="draw2_8cpp_1a91cdf55e49e2c33dd11a85a178a82409" kind="function"><name>display2</name></member>
+    <member refid="draw2_8cpp_1a5ae730bf155322af402f2f4b2dfcd54d" kind="function"><name>display3</name></member>
+    <member refid="draw2_8cpp_1a1564b834688cdbb8c5b7614900ce833e" kind="function"><name>Special_Keys</name></member>
+    <member refid="draw2_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_three_to_two_8cpp" kind="file"><name>ThreeToTwo.cpp</name>
+  </compound>
+  <compound refid="_two_to_three_8cpp" kind="file"><name>TwoToThree.cpp</name>
+  </compound>
+  <compound refid="md_README" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>
